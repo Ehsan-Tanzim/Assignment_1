@@ -73,3 +73,9 @@ margin-top: 120px;
     letter-spacing: 0%;
     text-align: center;
 }
+
+/* only img */
+.img1{
+    margin-top: 50px;
+    text-align: center;
+}
