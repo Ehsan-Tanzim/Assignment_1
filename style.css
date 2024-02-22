@@ -127,3 +127,34 @@
   margin-left: 50px;
   box-shadow: none;
 }
+
+/* time date place */
+
+.time{
+    border: 2px solid red;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    margin-top: 50px;
+}
+.time p{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.btun{
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    padding: 20px 25px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+.time-container{
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
