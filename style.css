@@ -311,10 +311,21 @@ width: 800px;
  
     gap: 15px;    
 }
+.protfolio *{
+    margin-bottom: 15px;
+}
 
 
 /* subscribe-container */
+.subscribe{
+    background: rgba(255, 0, 0, 0.05);
+    width: 1420px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-top: 25px;
 
+}
 .subscribe-container{
     margin-top: 20px;
     text-align: center;
@@ -362,6 +373,7 @@ input{
     border-radius: 0px 50px 50px 0px;
     padding: 15px 20px;
     width: 200px;
+    border: none;
 }
 
 /* footer */
