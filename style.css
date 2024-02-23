@@ -239,7 +239,7 @@
 /* holiday */
 .holiday-container{
     width: 1420px;
-    height: 600px;
+    height: 500px;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -275,9 +275,9 @@ text-align: center;
 /* protfolio */
 .protfolio{
     width: 1420px;
-    height: 600px;
+    height: 1200px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .protfolio-h2{
     color: rgb(7, 2, 17);
@@ -303,7 +303,109 @@ width: 800px;
 /* images */
 .protfolio-img{
     display: flex;
-    flex-wrap: wrap;
+   
+    gap: 15px;    
+}
+.protfolio-img2{
+    display: flex;
+ 
+    gap: 15px;    
+}
+
+
+/* subscribe-container */
+
+.subscribe-container{
+    margin-top: 20px;
+    text-align: center;
+}
+.subscribe-container-h{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+.subscribe-container-p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+width: 800px;
+margin: 0 auto;
+
+}
+.form-u{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 120px;
+   
+}
+input{
+    border-radius: 50px;
+    line-height: 50px;
+    outline: none;
+    padding: 0 60px;
+    border: none;
+    font-size: 16px;
+    width: 400px;
+
+}
+.sub-btn{
+    color: white;
+    background-color: red;
+    border-radius: 0px 50px 50px 0px;
+    padding: 15px 20px;
+    width: 200px;
+}
+
+/* footer */
+.last{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 140px;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+
+}
+.footer_content{
+    color: white;
+    width: 500px;
+}
+.footer-no{
+    color: white;
+}
+.footer-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 15px;
-    margin-top: 15px;
+}
+.final{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 140px ;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
 }
